@@ -1,0 +1,12 @@
+<!-- 滤镜 -->
+  <view class='filter_container'>
+    <scroll-view class='filter' scroll-x="true">
+      <view class='img' wx:for='{{filterimg}}'>
+        <image class='image' src='{{item}}'></image>
+      </view>
+    </scroll-view>
+
+    <scroll-view class='filter' scroll-x="true">
+      <text wx:for="{{itembtn}}" class='item_btn'>{{item}}</text>
+    </scroll-view>
+  </view>

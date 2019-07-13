@@ -1,0 +1,23 @@
+/* pages/camera/camera.wxss */
+
+.camera_con{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 390rpx;
+}
+
+.camera{
+  width: 100%; 
+  height: 1600rpx;
+}
+
+.trans{
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  color: white;
+  z-index: 999;
+}
+
+

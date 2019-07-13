@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "filter": "../components/filter/filter",
+    "savebtn":"../components/savebtn/savebtn"
+  }  
+}

@@ -1,0 +1,19 @@
+<!--pages/puzzle/puzzle.wxml拼图-->
+<view class='puzzle_con'>
+  <view class='beautify'>
+    <image class='img' src='{{imgsrc}}'></image>
+  </view>
+</view>
+
+<view class='puzzle_option'>
+  <view class='upimg'  bindtap="upload"></view>
+  <view class='filter_con' >
+    <filter></filter>
+  </view>
+</view>
+
+<!-- 公共分享按钮 -->
+<import src ="../template/sharebtn"/>
+<template is="sharebtn"/>
+
+<savebtn></savebtn>

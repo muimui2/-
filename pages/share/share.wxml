@@ -1,0 +1,24 @@
+<!--pages/share/share.wxml-->
+<view class='container'>
+
+  <view class='sharebar'>
+    <text class='share_title'>分享到</text>
+
+    <view class='share_con'>
+        <view class='item'  wx:for="{{sharebtn}}">
+          <view class='item_icon'  style='background-color:{{item.bgcolor}}'>
+              <icon class='iconfont {{item.icon}}'></icon>
+          </view>
+          <text class='lable'>{{item.lable}}</text>
+        </view>
+    </view>
+  </view>
+
+<navigator class='cancel' open-type="navigateBack" delta="1">取消</navigator>
+
+
+<view class='thanks_icon'>
+  <image class='img' src='loveyou.png'></image>
+</view>
+
+</view>

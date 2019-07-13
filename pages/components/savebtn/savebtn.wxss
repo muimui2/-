@@ -1,0 +1,16 @@
+/* pages/components/savebtn/savebtn.wxss */
+.save{
+  padding: 20rpx; 
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20rpx;
+}
+
+.save .savebtn{
+  background-color: #e46884;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 30px;
+}

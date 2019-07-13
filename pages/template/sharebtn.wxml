@@ -1,0 +1,6 @@
+<template name="sharebtn" >
+  <navigator url='../share/share' class='sharebtn'>
+    <icon class='iconfont icon-share'></icon>
+    <text>分享</text>
+  </navigator>
+</template>

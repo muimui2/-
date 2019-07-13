@@ -1,0 +1,16 @@
+<!--pages/beautify/beautify.wxml美化图片-->
+<view class='beautify'>
+  <image class='img' src='{{imgsrc}}'></image>
+</view>
+
+<!-- 公共分享按钮 -->
+<import src ="../template/sharebtn"/>
+<template is="sharebtn"/>
+
+<filter></filter>
+<savebtn></savebtn>
+
+
+
+
+

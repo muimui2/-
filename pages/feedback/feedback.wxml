@@ -1,0 +1,29 @@
+<!--pages/feedback/feedback.wxml反馈-->
+<view class='container'>
+  <form class='feedback_form' bindsubmit="formSubmit" bindreset="formReset">
+    <view class='textarea'>
+      <text class='textarea_title'>问题描述</text>
+      <textarea class='textarea_box' placeholder="请输入您的建议和意见" />
+    </view>
+
+    <view class='upimg'>
+      <text class='textarea_title'>图片说明</text>
+      <view class='container_img'>
+        <view class="feedback_btn" bindtap="upload"></view>
+        <block wx:for="{{tempFilePaths}}" wx:key="{{index}}">
+          <image src="{{item}}" bindtap="listenerButtonPreviewImage" data-index="{{index}}"/>
+        </block>
+      </view>
+    </view>
+
+    <view class='submit'>
+      <button form-type="submit" bindtap='openmsg'>提交</button>
+    </view>
+
+  </form>
+</view>
+
+<!-- 公共尾部 -->
+<import src ="../template/footer.wxml"/>
+<template is="footer"/>
+

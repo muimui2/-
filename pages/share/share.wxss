@@ -1,0 +1,83 @@
+/* pages/share/share.wxss 分享页面*/
+
+.container{
+    bottom: 0;
+}
+
+.sharebar{
+  padding: 40rpx;
+  background-color: white;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.sharebar .share_con{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-rows:auto;
+  grid-gap: 20rpx;
+}
+
+.sharebar .share_con .item{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30rpx;
+}
+
+.sharebar .share_con .item .item_icon{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.sharebar .share_con .item .item_icon .iconfont{
+  font-size: 26px;
+  color: white;  
+}
+
+.sharebar .share_con .item .lable{
+  font-size: 14px;
+  padding: 10rpx;
+}
+
+/* 取消按钮 */
+
+.cancel{
+  margin-top: 40rpx;
+  background-color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #f3f3f3;
+  color: black;
+  text-align: center;
+  line-height: 35px;
+}
+
+
+
+.thanks_icon{
+  
+  margin-top: 100rpx;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thanks_icon .img{
+  width: 195rpx;
+  height: 205rpx;
+  opacity: 0.5;
+}
+
+

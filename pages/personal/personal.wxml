@@ -1,0 +1,34 @@
+<!--pages/personal/personal.wxml个人中心-->
+
+<view class='container'>
+
+<!-- 登录 -->
+  <view class='loginbox'>
+    <view class='avatar'>
+    <!-- <image wx.if="{{avatarimg}}" src='{{avatarimg}}' class='avatar_img'></image> -->
+      <icon class='iconfont icon-iconzhucetouxiang avatar_img'></icon>
+      
+    </view>
+
+    <view class='login_info'>
+    <button open-type="getUserInfo" class='login_text' lang="zh_CN" bindgetuserinfo="onGotUserInfo">点击登录</button>
+      <!-- <navigator class='login_text' bindtap='getUser'>点击登录</navigator> -->
+      <text class='info'>登录使用更多内容</text>
+    </view>
+
+  </view>
+
+
+<!-- 反馈 -->
+  <view class='feedback'>
+    <navigator class='item' url='{{item.url}}' wx:for='{{feedback}}'>
+      <text>{{item.title}}</text>
+      <icon class='iconfont icon-right'></icon>
+    </navigator>
+  </view>
+
+</view>
+
+<!-- 公共尾部 -->
+<import src ="../template/footer.wxml"/>
+<template is="footer"/>

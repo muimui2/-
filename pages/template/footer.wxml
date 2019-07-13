@@ -1,0 +1,18 @@
+
+<template name="footer" class='footerbar'>
+  <view class='footer'>
+    <navigator class='item active'  url="../index/index" hover-class="navigator-hover">
+      <icon class='iconfont icon-home'></icon>
+      <text class='text'>首页</text>
+    </navigator>
+
+    <navigator class='item circle' url="../camera/camera">
+      <view class="mini_circle"></view>
+    </navigator>
+
+      <navigator class='item' url="../personal/personal" hover-class="navigator-hover">
+        <icon class='iconfont icon-my_icon'></icon>
+        <text class='text'>我的</text>
+      </navigator>
+  </view>
+</template>

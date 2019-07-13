@@ -1,0 +1,29 @@
+<!--pages/camera/camera.wxml相机-->
+<view class='camera_con'>
+
+  <icon class='iconfont icon-shuaxin trans' bindtap='trans'></icon>
+  
+  <camera class='camera' normal  device-position="{{transdevice}}" flash="off" binderror="error"></camera>
+
+
+
+  <!-- filter_container -->
+</view>
+<filter></filter>
+
+<view class='footer'>
+  <navigator class='item active' url="../index/index" hover-class="navigator-hover">
+    <icon class='iconfont icon-home'></icon>
+    <text class='text'>首页</text>
+  </navigator>
+
+  <view bindtap="takePhoto" class='item circle'>
+    <view class="mini_circle"></view>
+  </view>
+
+    <navigator class='item' url="../personal/personal" hover-class="navigator-hover">
+      <icon class='iconfont icon-my_icon'></icon>
+      <text class='text'>我的</text>
+    </navigator>
+</view>
+

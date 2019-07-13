@@ -1,0 +1,89 @@
+/**index.wxss**/
+
+/* .container{
+  margin-bottom: 46px;
+  bottom: 0;
+} */
+
+.swiper{
+    border-radius: 10px!important;
+    overflow: hidden!important;
+}
+
+.swiper .slide-image{
+  width: 100%;
+}
+
+/**menu**/
+.menu{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  padding: 20px 0;
+
+}
+
+.menu .item{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.menu .item .iconbox{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+}
+
+.menu .item .iconbox .iconfont{
+  font-size: 30px
+}
+
+.menu .item:nth-child(1) .iconbox{
+  background-color: #c6588b;
+}
+
+.menu .item:nth-child(1) .iconbox .iconfont{
+  background-color: #c6588b;
+  font-size: 20px!important;
+}
+
+
+.menu .item:nth-child(2) .iconbox{
+  background-color: #b48bab;
+}
+
+.menu .item:nth-child(3) .iconbox{
+  background-color: #73a69d;
+}
+
+.menu .item:nth-child(4) .iconbox{
+  background-color: #fbbd16;
+}
+
+
+/* 广告 */
+
+
+.ad{
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  height: 120px;
+}
+
+.ad .adimg{
+  width: 100%;
+}
+
+
+

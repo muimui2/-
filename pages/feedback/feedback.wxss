@@ -1,0 +1,89 @@
+/* pages/feedback/feedback.wxss */
+/* 
+.container{
+  margin-bottom: 46px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+} */
+
+.feedback_form .textarea .textarea_box{
+  background-color: white;
+  border-radius: 10px;
+  line-height: 14px;
+  margin-top: 6px;
+  height: 100px;
+  width: 100%;
+  padding: 20rpx;
+}
+
+.feedback_form .upimg{
+  margin-top: 40px;
+  
+}
+
+.feedback_form .upimg .container_img{
+  margin-top: 6px;
+}
+
+
+.feedback_form .upimg .container_img image{
+  width: 77px;
+  height: 77px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+
+.feedback_form .upimg .feedback_btn{
+    float: left;
+    position: relative;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    width: 77px;
+    height: 77px;
+    border: 1px solid #D9D9D9;
+}
+
+.feedback_form .upimg .feedback_btn:before,
+.feedback_form .upimg .feedback_btn:after
+{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #D9D9D9;
+
+}
+
+.feedback_form .upimg .feedback_btn:before{
+    width: 2px;
+    height: 39.5px;
+}
+
+.feedback_form .upimg .feedback_btn:after{
+    width: 39.5px;
+    height: 2px;
+}
+
+
+.feedback_form .submit{
+  padding: 0 20rpx; 
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+}
+
+.feedback_form .submit button{
+  background-color: #e46884;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 30px;
+}
+

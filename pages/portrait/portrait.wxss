@@ -1,0 +1,26 @@
+/* pages/portrait/portrait.wxss */
+
+.slider_con{
+  padding: 40rpx 20rpx;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 110rpx;
+  background-color: white;
+}
+
+/* 滑块 */
+.filter_text{
+  width: 100%;
+  padding: 20rpx 0;
+}
+
+.filter_text .filter{
+  white-space: nowrap; 
+  display: flex
+}
+ 
+.filter_text .filter .item_btn{
+  margin-right: 100rpx;
+  font-size: 14px;
+}

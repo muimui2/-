@@ -1,0 +1,5 @@
+<!--pages/components/savebtn/savebtn.wxml保存按钮-->
+
+<view class='save'>
+  <button class='savebtn' form-type="save" bindtap='savemsg'>保存</button>
+</view>
